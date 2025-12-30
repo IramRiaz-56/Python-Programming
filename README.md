@@ -1,9 +1,10 @@
 Hi there, I'm [Iram Riaz]!
 
 Welcome to my GitHub profile! I'm passionate about learning, building, and solving problems through code.
+
 👩‍💻 About Me
 - 🎓 Student | Developer | Tech Enthusiast  
-- 💻 Skilled in Python, C++, JavaScript  
+- 💻 Skilled in Python, C++  
 - 📊 Experienced with MS Word, Excel, PowerPoint  
 - 📚 Interested in Data Structures, Problem Solving  
 - 🌐 Currently learning: GitHub, Frontend Basics, and AI tools  
