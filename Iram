@@ -1,0 +1,42 @@
+#My GitHub Intro Program
+
+class Programmer:
+    def __init__(self, name, skills, tools, learning, location):
+        self.name = name
+        self.skills = skills
+        self.tools = tools
+        self.learning = learning
+        self.location = location
+
+    def introduction(self):
+        print(f"👋 Hi, I'm {self.name}!")
+        print("💻 I'm passionate about coding, learning, and building projects.")
+        print(f"📍 Based in: {self.location}")
+
+    def show_skills(self):
+        print("\n🛠️ Skills:")
+        for skill in self.skills:
+            print(f"  ✅ {skill}")
+
+    def show_tools(self):
+        print("\n🔧 Tools & Technologies:")
+        for tool in self.tools:
+            print(f"  ⚙️ {tool}")
+
+    def show_learning(self):
+        print("\n📚 Currently Learning:")
+        for item in self.learning:
+            print(f"  📘 {item}")
+
+my_intro = Programmer(
+    name="Iram Riaz",
+    skills=["Python", "C++", "MS Office", "Problem Solving"],
+    tools=["VS Code", "GitHub"],
+    learning=["Data Structures", "AI Tools"],
+    location="Lahore"
+)
+
+my_intro.introduction()
+my_intro.show_skills()
+my_intro.show_tools()
+my_intro.show_learning()
