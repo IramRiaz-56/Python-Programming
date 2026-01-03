@@ -1,0 +1,47 @@
+#📘 Python Variables and Data Types
+'''
+ What is a Variable?
+A variable is a name that stores a value. It acts as a container to hold data.
+
+Syntax: 
+variable_name = value
+'''
+# Examples of Variables
+name = "Ayesha"
+age = 20
+print("Name:", name)
+print("Age:", age)
+
+'''
+🧠 Rules for Naming Variables:
+- Must start with a letter or underscore (_)
+- Can contain letters, digits, and underscores
+- Case-sensitive (e.g., Name and name are different)
+'''
+#🔢 Python Data Types:
+'''
+
+| Data Type   |   Example    |      Description              |
+|-------------|--------------|-------------------------------|
+| int         | 10, -5       | Integer (whole numbers)       |
+| float       | 3.14, -0.1   | Decimal numbers               |
+| str         | "Hello"      |   String (text)               |
+| bool        | True, False  | Boolean values                            
+'''
+# Examples of Data Types
+print("\nData Types Examples:")
+age = 21                           # Integer
+print("Age:", age)
+print(type(age))  
+
+height = 5.6                      # Float
+print("Height:", height)
+print(type(height))
+
+name = "Ali"                      # String
+print("Name:", name)
+print(type(name))
+
+is_student = True                # Boolean
+print("Is Student:", is_student)
+print(type(is_student))
