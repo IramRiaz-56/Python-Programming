@@ -1,0 +1,24 @@
+'''
+Break and Continue in Python Loops
+
+break Statement
+Used to exit the loop when a condition is met.*
+
+
+Continue Statement
+Skips the current iteration and moves to the next.*
+'''
+#Program to demonstrate break and continue
+
+while True:
+    print("Enter zero to exists")
+    num = int(input("Enter a number (0 to stop): "))
+    if num < 0:
+        print("Negative number entered, skipping...")
+        continue  # Skip the rest and ask again
+
+    if num == 0:
+        print("Zero entered, exiting loop.")
+        break  # Exit the loop
+
+    print(f"You entered: {num}")
