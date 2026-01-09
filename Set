@@ -1,0 +1,23 @@
+'''
+Set in Python
+A set is an unordered collection of unique elements.  
+No duplicate values allowed  
+Mutable (you can add/remove items)  
+ Defined using {} or set()
+
+Creating a set
+fruits = {"apple", "banana", "cherry", "apple"}
+print(fruits)            # Output: {'banana', 'cherry', 'apple'}  (no duplicate)
+'''
+# Example:
+
+items = set()           #Ask user to enter items and store only unique values in a set
+n = int(input("How many items do you want to enter? "))
+
+for i in range(n):
+    item = input(f"Enter item {i+1}: ")
+    items.add(item)
+
+print("\nUnique items you entered:")
+for i in items:
+    print(i)
