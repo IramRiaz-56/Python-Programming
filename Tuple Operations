@@ -1,0 +1,34 @@
+#Tuple operations
+
+#Take input size
+size = int(input("Enter the number of elements for the tuple: "))
+# Input elements
+elements = []
+for i in range(size):
+    item = input(f"Enter element {i+1}: ")
+    elements.append(item)
+    
+#Convert list to tuple
+user_tuple = tuple(elements)
+print("Your Tuple:", user_tuple)
+
+print("\nChoose an operation:")
+print("1. Count an element")
+print("2. Find index of an element")
+print("3. Slice the tuple")
+choice = input("Enter your choice (1/2/3): ")
+if choice == "1":
+    val = input("Enter value to count: ")
+    print(f"Count of '{val}':", user_tuple.count(val))
+elif choice == "2":
+    val = input("Enter value to find index: ")
+    if val in user_tuple:
+        print(f"Index of '{val}':", user_tuple.index(val))
+    else:
+        print("Value not found in tuple.")
+elif choice == "3":
+    start = int(input("Enter start index: "))
+    end = int(input("Enter end index: "))
+    print("Sliced Tuple:", user_tuple[start:end])
+else:
+    print("Invalid choice.")
