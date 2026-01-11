@@ -1,0 +1,30 @@
+'''
+ Tuple in Python
+
+A tuple is a collection of ordered, immutable elements.  
+Once a tuple is created, its values cannot be changed.  
+Tuples are defined using parentheses ().
+
+Example: 
+my_tuple = (1, 2, 3, "apple", True)
+
+'''
+
+#Taking tuple input from user
+size = int(input("Enter the number of elements: "))
+
+elements = []
+for i in range(size):
+    item = input(f"Enter element {i+1}: ")
+    elements.append(item)
+
+user_tuple = tuple(elements)  #Convert list to tuple
+
+print("Your Tuple:", user_tuple)  #Displaying the tuple
+
+#Accessing an element
+index = int(input("Enter index to access element: "))
+if 0 <= index < len(user_tuple):
+    print(f"Element at index {index} is: {user_tuple[index]}")
+else:
+    print("Invalid index.")
