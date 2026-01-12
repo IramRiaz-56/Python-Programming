@@ -1,0 +1,36 @@
+'''
+Indexing in Python*:
+
+Indexing means accessing individual elements of a sequence (like a string, list, or tuple) using their position.
+
+Types of Indexing:
+1.Positive Indexing: Starts from 0  
+2.Negative Indexing: Starts from -1 (last element)
+
+Examples:
+
+List
+fruits = ['apple', 'banana', 'cherry']
+#Positive indexing
+print(fruits[0])   # apple
+print(fruits[2])   # cherry
+
+#Negative indexing
+print(fruits[-1])  # cherry
+print(fruits[-2])  # banana
+
+text = "Python"
+
+print(text[0])   # P
+print(text[-1])  # n
+'''
+
+# Simple Indexing Program in Python
+text = input("Enter any text: ")
+
+print("First character:", text[0])
+print("Last character:", text[-1])
+print("Third character:", text[2])
+
+#Index 1 to 4 characters
+print("Characters from index 1 to 4:", text[1:5])
