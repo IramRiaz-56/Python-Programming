@@ -1,0 +1,44 @@
+'''
+Function
+A function is a block of reusable code 
+that performs a specific task when called.
+
+---
+def Keyword
+Used to define a function.
+
+def greet():
+    print("Hello!")
+
+---
+return Statement
+Used to send back (return) a value from the function.
+
+def add(a, b):
+    return a + b
+
+result = add(3, 4)
+print(result)  # Output: 7
+
+---
+Arguments (Parameters)
+Arguments are values you pass into the function.
+
+
+def welcome(name):
+    print("Welcome", name)
+    
+welcome("Ali")
+____
+Default Argument Value
+We can give a  default value to a parameter 
+so its optional when calling the function.
+
+
+def welcome(name="Guest"):
+    print("Welcome", name)
+
+welcome()         # Output: Welcome Guest
+welcome("Iram") # Output: Welcome Ayesha
+'''
+
